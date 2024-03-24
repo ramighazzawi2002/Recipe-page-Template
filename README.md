@@ -1,30 +1,26 @@
-# Frontend Mentor | Recipe page
+# Recipe Page
 
-This project is a simple recipe page built with HTML and CSS.
+This is a simple recipe page built with HTML and CSS.
 
-## Table of Contents
+## Structure
 
-- Overview
-- Instructions
-- Nutrition
-- Attribution
+The project has the following structure:
+assets/ fonts/ outfit/ OFL.txt Outfit-VariableFont_wght.ttf README.txt static/ Outfit-Black.ttf Outfit-Bold.ttf Outfit-ExtraBold.ttf Outfit-ExtraLight.ttf Outfit-Light.ttf Outfit-Medium.ttf Outfit-Regular.ttf Outfit-SemiBold.ttf Outfit-Thin.ttf young-serif/ OFL.txt YoungSerif-Regular.ttf images/ index.html
 
-## Overview
+## Fonts
 
-The page displays a recipe for a simple omelette. It includes an image of the dish, a description, preparation time, ingredients, instructions, and nutritional information.
+The project uses two custom fonts: 'Outfit' and 'Young Serif'.
 
-## Instructions
+'Outfit' is a variable font with a `wght` axis, meaning all the styles are contained in a single file: `Outfit-VariableFont_wght.ttf`. If your app doesn't fully support variable fonts, you can use the static font files for 'Outfit' located in the `static/` directory.
 
-The instructions section provides a step-by-step guide on how to prepare the omelette. It includes details such as beating the eggs, heating the pan, cooking the omelette, adding fillings, folding and serving the omelette.
+'Young Serif' is a regular font used for specific stylings.
 
-## Nutrition
+Please read the full license text in `OFL.txt` for each font to understand the permissions, restrictions, and requirements for usage, redistribution, and modification.
 
-The nutrition section provides nutritional values per serving without the additional fillings. It includes information on calories, carbs, protein, and fat.
+## Styles
 
-## Attribution
+The `index.html` file contains some basic styles for the page. The body of the page has a background color of `hsl(30, 54%, 90%)` and uses flexbox for centering and alignment. The font size for the body is set to `16px`.
 
-This project was created as a challenge by Frontend Mentor and coded by Rami Ghazzawi.
+## Usage
 
-## Setup
-
-To run this project, download the HTML file and open it in a web browser.
+To use this project, simply open the `index.html` file in your browser.
